@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "e6fca16d-d28d-4f84-8a02-f7cdfd6a6f99",
+		"name": "Project 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25557855"
+	},
+	"item": [
+		{
+			"name": "Testing 4..vwo.app\\login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"93npu2yyb0@esiix.com\",\r\n    \"password\" : \"Wingify@123\",\r\n    \"remember\" : \"false\"\r\n}"
+				},
+				"url": {
+					"raw": "https://app.vwo.com/login",
+					"protocol": "https",
+					"host": [
+						"app",
+						"vwo",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

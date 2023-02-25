@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "3b99e975-942a-486c-83b1-1ed7695f9b4b",
+		"name": "Project 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25557855"
+	},
+	"item": [
+		{
+			"name": "acc creation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://awesomeqa.com/ui/index.php?route=account/register",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/register"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
